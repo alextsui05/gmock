@@ -1,0 +1,4 @@
+/home/atsui/work/gmock-1.7.0/build/CMakeFiles/gmock.dir
+/home/atsui/work/gmock-1.7.0/build/CMakeFiles/gmock_main.dir
+/home/atsui/work/gmock-1.7.0/build/gtest/CMakeFiles/gtest.dir
+/home/atsui/work/gmock-1.7.0/build/gtest/CMakeFiles/gtest_main.dir
