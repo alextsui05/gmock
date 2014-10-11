@@ -65,6 +65,7 @@ set(_gmock_INCLUDE_DIRS "${_gmock_INCLUDE_DIRS};${gtest_SOURCE_DIR}")
 
 set(gmock_INCLUDE_DIRS "${_gmock_INCLUDE_DIRS}"
     CACHE PATH "gmock include paths")
+mark_as_advanced(gmock_INCLUDE_DIRS)
 
 include_directories("${gmock_SOURCE_DIR}/include"
                     "${gmock_SOURCE_DIR}"
