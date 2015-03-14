@@ -39,6 +39,10 @@ endif()
 # Language "C" is required for find_package(Threads).
 project(gmock CXX C)
 cmake_minimum_required(VERSION 2.6.2)
+cmake_policy( VERSION 2.8 )
+if (POLICY CMP0042)
+    cmake_policy(SET CMP0042 OLD)
+endif (POLICY CMP0042)
 
 if (COMMAND set_up_hermetic_build)
   set_up_hermetic_build()
